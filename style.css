@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Baloo Thambi', cursive;
+}
+
+body {
+    margin: 0;
+    background-image: url(img/wallpaper.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.title {
+    margin-top: 20px;
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 60px;
+    color: #fff;
+    text-shadow: 1px 1px 5px black;    
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.field {
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.excel {
+    width: 50px;
+    height: 50px;   
+    padding: 5px;
+}
+
+.snakeBody {
+    background: url(img/snake_scales.jpg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.head {
+    background: url(img/snake_head.png);
+    background-size: cover;
+
+}
+
+.mouse {
+    background: url(img/mouse.png);
+    background-size: cover;
+}
+
+.input {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 30px;
+    display: block;
+}
+
+
+/*
+swal({
+            title: "Игра окончена!",
+            text: `Ваши очки: ${score}`,
+            icon: "success",
+            button: "Начать сначала",
+          });
+*/
